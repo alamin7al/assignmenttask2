@@ -1,0 +1,14 @@
+.logo{
+    width: 250px;
+    height: 50px;
+    object-fit: contain;
+}
+.navbarcolor{
+   color: #01cfbe;
+}
+.scroolstyle{
+    color: black;
+    font-weight: bold;
+    background-color: #b3d0ca;
+}
+

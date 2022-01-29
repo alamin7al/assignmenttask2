@@ -1,0 +1,40 @@
+.one{
+background-color: red;
+width:100%;
+height:60px;
+position:relative;
+top:10px;
+z-index:2;
+border-radius: 20px;
+
+background-color: #58547E;
+}
+.two{
+width:94%;
+height:60px;
+position:relative;
+top:-20px;
+background-color: white;
+border-radius: 20px;
+
+z-index:3;
+}
+.fontcolorbed{
+  
+    color: #58547E;
+font-size: 53px;
+    margin-bottom: 104px;
+
+}
+.fontcolorhospital{
+    color: #05D0BF;
+font-weight: bold;
+font-size: 35px;
+}
+.logosize{
+    height: 30px;
+    width: 120px;
+}
+.imglogowrites{
+    color: #58547e;
+}

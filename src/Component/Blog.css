@@ -1,0 +1,53 @@
+.blogs{
+    color: #05D0BF;
+margin-top: 30px;
+font-size: 60px;
+}
+.pictu{
+    width: auto;
+    height: 200px;
+}
+.cardscolor{
+    background-color: #e9f7f5;
+    height: 520px;
+}
+.btnstyelss{
+    margin-top: -30px;
+    min-width: 180px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: #313133;
+    background: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 1000px;
+    box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
+.btnstyelsss{
+    margin-top: 30px;
+    min-width: 180px;
+    min-height: 60px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    font-weight: 700;
+    color: white;
+    color: #4FD1C5;
+  background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+    border: none;
+    border-radius: 20px;
+    box-shadow: 12px 12px 24px rgba(233, 247, 245, 0.64);
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+}
