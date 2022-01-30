@@ -11,10 +11,12 @@ const News = () => {
             <div className='one '></div>
             <div className='two  mx-5 shadow-lg p-3 mb-5 bg-body '>
                 <div 
-                data-aos="fade-left"
-                data-aos-anchor="#example-anchor"
-                data-aos-offset="1500"
-                data-aos-duration="1500"
+                 data-aos="fade-down"
+                 data-aos-easing="linear"
+                 data-aos-duration="1500"
+                // data-aos-anchor="#example-anchor"
+                // data-aos-offset="1500"
+                // data-aos-duration="1500"
                 className="d-flex align-items-centerr justify-content-center">
                     <p className='imglogowrites me-3 fw-bold'>দেখানো হয়েছে</p>
                     <img src={img} className='logosize ' alt="" />
@@ -23,16 +25,14 @@ const News = () => {
            
 
             <h3 
-              data-aos="fade-right"
-              data-aos-anchor="#example-anchor"
-              data-aos-offset="1500"
-              data-aos-duration="1500"
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="2500"
             className='fontcolorhospital mb-2'>কাছাকাছি হাসপাতাল</h3>
             <h1 
-              data-aos="fade-left"
-              data-aos-anchor="#example-anchor"
-              data-aos-offset="1500"
-              data-aos-duration="1500"
+             data-aos="fade-down"
+             data-aos-easing="linear"
+             data-aos-duration="2500"
             className='fontcolorbed '>হসপিটাল বেড সেবা</h1>
         </div>
     );

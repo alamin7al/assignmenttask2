@@ -3,7 +3,7 @@ import './Header.css'
 import { EmailOutlined, Facebook } from '@material-ui/icons';
 const Header = () => {
     return (
-        <div className=' header'>
+        <div className=' header '>
             <div className="container">
                 <div className="d-flex align-items-center ">
                     <div className="d-flex align-items-center justyfy-content-center">

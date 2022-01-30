@@ -9,10 +9,11 @@ const Pagination = () => {
         <div className='container my-5'>
             <div 
             
-            data-aos="fade-right"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="1500"
-     data-aos-duration="1500"
+            data-aos="fade-down"
+            //  data-aos="flip-left"
+             data-aos-easing="ease-out-cubic"
+             data-aos-duration="3000"
+  
             className="row">
                 <div className="col-md-6">
                     <p className='my-3'>ডেটা উত্স: ডিএইচআইএস২ | কারিগরি সহায়তা: ইউনিসেফ</p>
@@ -28,10 +29,10 @@ const Pagination = () => {
                 </div>
             </div>
             <div 
-            data-aos="fade-left"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="2500"
-            data-aos-duration="2500"
+            // data-aos="fade-left"
+            // data-aos-anchor="#example-anchor"
+            // data-aos-offset="2500"
+            // data-aos-duration="2500"
             className="hori">
                 <hr className='hori' />
 

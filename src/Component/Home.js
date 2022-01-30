@@ -16,22 +16,25 @@ import Reason from './Reason';
 //https://covidsurokkha.com/en/
 const Home = () => {
     return (
-        <div>
+        <>
             <Header></Header>
-            <Navigation></Navigation>
-            <Case></Case>
-            <Map></Map>
-            <News></News>
-            <Entry></Entry>
-            <BigTable></BigTable>
-            <Pagination></Pagination>
-            <Pravabito></Pravabito>
-            <Reason></Reason>
-            <Clean></Clean>
-            <Qusition></Qusition>
-            <Blog></Blog>
-            <Footer></Footer>
-        </div>
+
+            <div className='allbg'>
+                <Navigation></Navigation>
+                <Case></Case>
+                <Map></Map>
+                <News></News>
+                <Entry></Entry>
+                <BigTable></BigTable>
+                <Pagination></Pagination>
+                <Pravabito></Pravabito>
+                <Reason></Reason>
+                <Clean></Clean>
+                <Qusition></Qusition>
+                <Blog></Blog>
+                <Footer></Footer>
+            </div>
+        </>
     );
 };
 

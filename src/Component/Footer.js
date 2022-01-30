@@ -7,7 +7,13 @@ const Footer = () => {
     AOS.init();
 
     return (
-        <div className='mt-5 footerstyle'>
+       <div
+       data-aos="fade-up"
+       data-aos-anchor-placement="center-bottom"
+       data-aos-duration="2000"
+       
+       className=" footerstyle">
+            <div className='mt-5 container '>
             <div className="row">
                 <div 
               
@@ -15,11 +21,8 @@ const Footer = () => {
                 className="col-md-5">
                     <div 
                     
-                    data-aos="fade-left"
-                    data-aos-anchor="#example-anchor"
-                    data-aos-offset="500"
-                    data-aos-duration="500"
-                    className="mt-5 text-start container ms-5">
+                  
+                    className="mt-5 text-start container ms-2">
                         <h2 className=' mb-4 all'> কোভিডসুরক্ষা
                         </h2>
                         <p className='all'> © ২০২২ কোভিডসুরক্ষা। সমস্ত অধিকার সংরক্ষিত।
@@ -33,7 +36,8 @@ const Footer = () => {
 
                         </p>
                         <p className='all'>
-                          <LinkedIn></LinkedIn>  লিঙ্কডিন: <em className='lasd'>কোভিডসুরক্ষা</em>
+                          <LinkedIn></LinkedIn>  লিঙ্কডিন: <em className='lasd'>কোভিডসুরক্ষা</em> <br />
+                          <button className='buto my-3'> মতামত দিন  </button>
 
                         </p>
                     </div>
@@ -47,12 +51,12 @@ const Footer = () => {
                 <div className="col-md-8 text start">
                     <div
                     
-                    data-aos="fade-left"
-     data-aos-anchor="#example-anchor"
-     data-aos-offset="1500"
-     data-aos-duration="1500"
+    //                 data-aos="fade-left"
+    //  data-aos-anchor="#example-anchor"
+    //  data-aos-offset="1500"
+    //  data-aos-duration="1500"
                     className="d-flex align-items-center justify-content-start">
-                        <div className="me-5">
+                        <div className="">
                             <h5 className='mb-3 all'>
                                 হোম
 
@@ -67,7 +71,7 @@ const Footer = () => {
 
                             </h5>
                         </div>
-                        <div className="">
+                        <div className="footermy">
                             <h5 className='mb-3 all'>
                                 ভ্যাকসিন
 
@@ -90,6 +94,7 @@ const Footer = () => {
                
             </div>
         </div>
+       </div>
     );
 };
 

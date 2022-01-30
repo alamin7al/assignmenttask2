@@ -2,5 +2,23 @@
     color: #05D0BF;
 }
 .fontcolorcase{
-   color: #58547E
-   ; }
+   color: #58547E;
+ }
+   
+
+
+.rotate{
+    animation: rotate 1.5s linear infinite; 
+  }
+  @keyframes rotate{
+    to{ transform: rotate(360deg); }
+  }
+  
+  
+  /* SPINNER JUST FOR DEMO */
+  .spinner{
+    display:inline-block; width: 70px; height: 70px;
+    border-radius: 50%;
+    box-shadow: inset -2px 0 0 2px #0bf;
+    /* height: 50px; */
+  }

@@ -7,7 +7,7 @@ const Navigation = () => {
     return (
         <div>
 
-            <div className='container'>
+            <div className=''>
                 <Navbar bg="light" expand="lg">
 
                     <img src={img} className='logo' alt="" />
@@ -23,17 +23,23 @@ const Navigation = () => {
                     </Navbar.Collapse>
                     <Navbar.Collapse className="justify-content-end">
                         <Navbar.Text>
-                            <button className='btn btn-outline-dark btn-lg'>Login</button>
+                            <button className='buto'>Login</button>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Navbar>
+                <div fixed="top"  class="progress" style={{ height: '6px', backgroundColor: 'transparent', width: '100%' }} >
+                <div class="progress__highlight" id="bar-highlight"
 
+                    style={{ transition: 'width 0.15s linear 0s', backgroundColor: 'rgb(1, 207, 190)', height: '100%', width: '5%' }}
+                ></div>
             </div>
-            <div className="scroolstyle ">
-                <marquee className='my-2' behavior="scroll" direction="left">
-                    প্রতিদিন ২৪/৭ বিনামূল্যে ডাক্তারের পরামর্শের জন্য ডায়াল করুন ১৬২৬৩। কোভিড-১৯ নমুনা পরীক্ষা,চিকিৎসা ও হাসপাতাল সংক্রান্ত তথ্যের প্রয়োজনে ফোন করুন - ০১৩১৩৭৯১১৩০, ০১৩১৩৭৯১১৩৮, ০১৩১৩৭৯১১৩৯, ০১৩১৩৭৯১১৪০, ০১৩২১১৭৩৮৬৫
-                    করোনাভাইরাস-লাইভ-আপডেট</marquee>
+                <div className="scroolstyle ">
+                    <marquee className='my-2' behavior="scroll" direction="left">
+                        প্রতিদিন ২৪/৭ বিনামূল্যে ডাক্তারের পরামর্শের জন্য ডায়াল করুন ১৬২৬৩। কোভিড-১৯ নমুনা পরীক্ষা,চিকিৎসা ও হাসপাতাল সংক্রান্ত তথ্যের প্রয়োজনে ফোন করুন - ০১৩১৩৭৯১১৩০, ০১৩১৩৭৯১১৩৮, ০১৩১৩৭৯১১৩৯, ০১৩১৩৭৯১১৪০, ০১৩২১১৭৩৮৬৫
+                        করোনাভাইরাস-লাইভ-আপডেট</marquee>
+                </div>
             </div>
+        
         </div>
     );
 };

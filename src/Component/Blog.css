@@ -5,11 +5,11 @@ font-size: 60px;
 }
 .pictu{
     width: auto;
-    height: 200px;
+    min-height: 200px;
 }
 .cardscolor{
     background-color: #e9f7f5;
-    height: 520px;
+    height: 540px;
 }
 .btnstyelss{
     margin-top: -30px;

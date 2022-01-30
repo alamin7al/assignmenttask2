@@ -3,11 +3,28 @@ import React from 'react';
 import './Reson.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import img from '../image/project-virus-1.webp'
+import img2 from '../image/project-virus-7.webp'
+import img5 from '../image/bg2.jpg'
+
 const Reason = () => {
     AOS.init();
-
+    const banner = {
+        background: `url(${img5})`,
+        // animation: 'rotate 3s linear 1s infinite',
+        // transition: 'all 1s ease-in-out infinite',
+        // marginTop:'30px',
+        // backgroundColor: 'rgba(45, 58, 74, 0.2)',
+        // backgroundBlendMode: 'darken, luminosity',
+        backgroundRepeat: 'no-repeat',
+    }
     return (
-        <div className='my-5 '>
+        <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="2500"
+        
+        className='my-5 container'>
             <div className="my-5">
                 <p className='fs-4 first'>আপনাকে যা করতে হবে</p>
                 <h1 className='fs-1 second '>করোনাভাইরাস থেকে কীভাবে নিজেকে রক্ষা করবেন?</h1>
@@ -15,10 +32,11 @@ const Reason = () => {
             <div className="container ">
                 <div className="row ">
                     <div
-                    data-aos="fade-down"
-                    data-aos-easing="linear"
-                    data-aos-duration="1500"
-                    className="col-md-3">
+                  
+                        // data-aos="fade-down"
+                        // data-aos-easing="linear"
+                        // data-aos-duration="1500"
+                        className="col-md-3">
                         <div className='mb-4 mt-5'>
                             <h3 className='colorcase fs-3'> আপনার যা করণীয়
                             </h3>
@@ -89,15 +107,15 @@ const Reason = () => {
                         </div>
                     </div>
                     <div
-                       data-aos="fade-left"
-                       data-aos-anchor="#example-anchor"
-                       data-aos-offset="2500"
-                       data-aos-duration="1500"
-                    className="col-md-3">
+                        //    data-aos="fade-left"
+                        //    data-aos-anchor="#example-anchor"
+                        //    data-aos-offset="2500"
+                        //    data-aos-duration="1500"
+                        className="col-md-3">
                         <div
-                        
-                     
-                        className='mt-5'>
+
+
+                            className='mt-5'>
                             <h3 className='text-danger fs-3'> যা এড়ানো উচিত
                             </h3>
                             <p className='colorcase3'>এটি অনুসরণ করতে ভুলবেন না
@@ -176,12 +194,23 @@ const Reason = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-md-6">
-                        <img 
-                       data-aos="fade-up"
-                        data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000"
-                        className='img-fluid' src="https://covidsurokkha.com/assets/images/protect-img.webp" alt="" />
+                    <div className="col-md-6 " style={banner}>
+
+                        <img
+                            //    data-aos="fade-up"
+                            //     data-aos-easing="ease-out-cubic"
+                            //     data-aos-duration="2000"
+                            className='img-fluid' src="https://covidsurokkha.com/assets/images/protect-img.webp" alt="" />
+
+
+                        <img className='ms-5 ms-5 spi rot' src={img} alt="" />
+
+
+
+                        <img className='ms-5  spi rot' src={img2} alt="" />
+
+
+
                     </div>
                 </div>
             </div>

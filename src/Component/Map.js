@@ -5,9 +5,11 @@ import './Map.css'
 const Map = () => {
     return (
         <div className='container'>
+            <div className="my-5">
             <h4 className='fontcolorcase text-start'>
                 ভিড আক্রান্ত অঞ্চলগুলি
             </h4>
+            </div>
             <div className="row">
                 <div className="col-md-6 ">
                     <Card 
@@ -15,18 +17,17 @@ const Map = () => {
                     data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500"
-                    className='shadow-lg p-3 mb-5 bg-body rounded' style={{ width: '26rem' }}>
-                        <Card.Img className='w-100 h-100' variant="top" src={image} />
+                    className='shadow-lg p-3 mb-5 bg-body rounded' style={{ width: '90%' }}>
+                        <Card.Img className='imgres' variant="top" src={image} />
 
                     </Card>
                 </div>
                 <div className="col-md-6 ">
                     <Card
-                    data-aos="fade-right"
-                    data-aos-easing="linear"
-                    data-aos-duration="1000"
+                 data-aos="zoom-in-up"
+                 data-aos-duration="3000"
                     className=' tableheight shadow-lg p-3 mb-5 bg-body rounded' style={{ width: '100%' }}>
-                        <Table className='tableheight ' striped bordered hover>
+                        <Table className='tableheight w-100 h-100' striped bordered hover>
                             <thead className='tablecolor'>
                                 <tr className=''>
 

@@ -7,11 +7,16 @@ const Qusition = () => {
     AOS.init();
 
     return (
-        <div className='my-5'>
+        <div
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        
+        className='my-5'>
             <div className='container'>
                 <div
                 
-                data-aos="flip-left"
+                data-aos="flip-down"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
                 className="text-start">
@@ -24,7 +29,8 @@ const Qusition = () => {
             <div class="mb-3 my-5">
                 <div
                 
-                data-aos="flip-left"
+                data-aos="flip-up"
+
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"
                 className=" container">
@@ -39,10 +45,10 @@ const Qusition = () => {
               
 
                         <Accordion
-                          data-aos="fade-right"
-                          data-aos-anchor="#example-anchor"
-                          data-aos-offset="1500"
-                          data-aos-duration="1500"
+                        //   data-aos="fade-right"
+                        //   data-aos-anchor="#example-anchor"
+                        //   data-aos-offset="1500"
+                        //   data-aos-duration="1500"
                         defaultActiveKey="0">
                             <Accordion.Item eventKey="0" className='hedeer'>
                                 <Accordion.Header className='accc'>
@@ -138,8 +144,13 @@ const Qusition = () => {
 
 
                     </div>
-                    <div className="col-md-7">
-                        <div>
+                    <div
+                    data-aos="fade-up"
+                    data-aos-easing="linear"
+                    data-aos-duration="2500"
+                    
+                    className="col-md-7">
+                        <div className='my-5'>
                             <h3 className='cobid text-start'>
                                 কোভিড-১৯ ভ্যাকসিন কেন প্রয়োজন?
 
